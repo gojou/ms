@@ -28,7 +28,7 @@ func run() (results []status) {
 	results = append(results,
 		initdb(),
 		initweb(),
-		initsms())
+	)
 
 	// error correction ommited - fix later
 
