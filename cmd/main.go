@@ -48,9 +48,3 @@ func initweb() (s status) {
 	s.Failure = errors.New("web server error")
 	return s
 }
-
-func initsms() (s status) {
-	s.Message = "sms server initializing... "
-	// s.Failure = errors.New("sms server error")
-	return s
-}
