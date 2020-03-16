@@ -16,6 +16,7 @@ func main() {
 	r := run()
 	for _, m := range r {
 
+		// TODO: modify this so it can catch multiple falures from each startup
 		if m.Failure != nil {
 			m.Message = m.Message + m.Failure.Error()
 		}
